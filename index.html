@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>API New York Times App</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Alegreya:400,900,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="wrapper clearfix">
+	<div class="bannerText">
+		<h1 class="bigTitle">Times in New York</h1>
+		<h2 class="littleTitle">Find out what's happening when you visit New York!</h2>
+		<a href="#" class="infoButton">How it Works</a>
+	</div>
+	<div class="formWrapper clearfix">
+		<form action="" class="userForm clearfix" autocomplete="off" name="userForm">
+
+			<input type="submit" class="submit" value="Search">
+			<input type="date" class="start" value="2015-01-01">
+			<input type="date" class="end" value="2015-03-01">
+
+			<select name="boroughs" class="boroughDropdown dropdown">
+				<option value="Manhattan">Manhattan</option>
+				<option value="Queens">Queens</option>
+				<option value="Brooklyn">Brooklyn</option>
+				<option value="Bronx">Bronx</option>
+				<option value="StatenIsland">Staten </option>
+			</select>
+
+			<select name="category" class="catDropdown dropdown">
+				<option value="Art">Art</option>
+				<option value="Comedy">Comedy</option>
+				<option value="RockPop">Rock and Pop</option>
+				<option value="Dance">Dance</option>
+				<option value="Theater">Theater</option>
+			</select>
+	
+
+		</form>
+	</div> <!-- end of form wrapper -->
+
+</div> <!-- end of wrapper -->
+<div class="resultsWrapper clearfix">
+		<h2 class="resultsTag"> Here are the results</h2>
+		<p class="resultssmallTag"> they are super cool</p>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
